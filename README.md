@@ -18,6 +18,6 @@ vue-loader/lib/selector.js?type=styles&index=0!./src/demo.vue 4:14-220
  @ ./src/main.es6
 ```
 
-去掉`demo.vue`中的`style`标签，可以成功编译。这时打开`/index.html`可以看到网页显示`Hello bug`。
+去掉`/src/demo.vue`中的`<style/>`标签，可以成功编译。这时打开`/index.html`可以看到网页显示`Hello bug`。
 
 OS: Windows7
